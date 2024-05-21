@@ -77,12 +77,12 @@ export default function Home() {
 
   return (
     <main className={`flex h-screen max-h-screen text-sm`}>
-      <div className={`flex flex-col w-[30%] bg-blue-600`}>
+      <div className={`flex flex-col w-[30%]`}>
         <LocationInput getForecastWeatherData={getForecastWeatherData} />
         <ForecastList data={data} setCurrentData={setCurrentData} />
       </div>
       <div 
-        className={`flex w-[70%] bg-red-600 text-white justify-center items-center`} 
+        className={`flex w-[70%] text-white justify-center items-center`} 
         style={{ 
           backgroundImage: (
             currentData?.day?.condition?.code ?
