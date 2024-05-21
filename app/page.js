@@ -7,7 +7,7 @@ import Image from 'next/image'
 import LocationInput from "./components/LocationInput"
 import ForecastList from "./components/ForecastList"
 
-const baseURL = "http://api.weatherapi.com/v1"
+const baseURL = "https://api.weatherapi.com/v1"
 const apiKey = process.env.NEXT_PUBLIC_API_KEY
 const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
