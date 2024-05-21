@@ -86,7 +86,7 @@ export default function Home() {
         style={{ 
           backgroundImage: (
             currentData?.day?.condition?.code ?
-            `url("/weather_backgrounds/night/${currentData.day.condition.code}.jpeg")` : 
+            `url("/weather_backgrounds/Night/${currentData.day.condition.code}.jpeg")` : 
             "none"
           ),
           backgroundSize: '100% 100%',
